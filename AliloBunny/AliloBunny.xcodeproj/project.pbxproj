@@ -1,0 +1,657 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77482C3D28AFFAB40083FC0C /* AudioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77482C3C28AFFAB40083FC0C /* AudioManager.swift */; };
+		774BF53628CF80DE00476544 /* IfYoureHappyAndYouKnowItyourface_(allmp3.su).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 774BF53128CF80DE00476544 /* IfYoureHappyAndYouKnowItyourface_(allmp3.su).mp3 */; };
+		774BF53728CF80DE00476544 /* OldMacDonaldHadAFarm_(allmp3.su).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 774BF53228CF80DE00476544 /* OldMacDonaldHadAFarm_(allmp3.su).mp3 */; };
+		774BF53828CF80DE00476544 /* TheMuffinMan_(allmp3.su).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 774BF53328CF80DE00476544 /* TheMuffinMan_(allmp3.su).mp3 */; };
+		774BF53928CF80DE00476544 /* ClassicDisney-IfYoureHappyandYouKnowIt_(allmp3.su).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 774BF53428CF80DE00476544 /* ClassicDisney-IfYoureHappyandYouKnowIt_(allmp3.su).mp3 */; };
+		774BF53A28CF80DE00476544 /* 12345_(allmp3.su).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 774BF53528CF80DE00476544 /* 12345_(allmp3.su).mp3 */; };
+		7755630528AEACB400D9B369 /* deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 775562FE28AEACB300D9B369 /* deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3 */; };
+		7755630628AEACB400D9B369 /* deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 775562FF28AEACB300D9B369 /* deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3 */; };
+		7755630728AEACB400D9B369 /* deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7755630028AEACB400D9B369 /* deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3 */; };
+		7755630828AEACB400D9B369 /* deti-online.com_-_pesnya-mamontenka.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7755630128AEACB400D9B369 /* deti-online.com_-_pesnya-mamontenka.mp3 */; };
+		7755630928AEACB400D9B369 /* deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7755630228AEACB400D9B369 /* deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3 */; };
+		7755630A28AEACB400D9B369 /* deti-online.com_-_ulybka-kroshka-enot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7755630328AEACB400D9B369 /* deti-online.com_-_ulybka-kroshka-enot.mp3 */; };
+		7755630B28AEACB400D9B369 /* deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 7755630428AEACB400D9B369 /* deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3 */; };
+		7755631D28AEACE600D9B369 /* mixkit-happy-party-horn-sound-530.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755630C28AEACE500D9B369 /* mixkit-happy-party-horn-sound-530.wav */; };
+		7755631E28AEACE600D9B369 /* mixkit-joke-drums-578.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755630D28AEACE500D9B369 /* mixkit-joke-drums-578.wav */; };
+		7755631F28AEACE600D9B369 /* mixkit-sad-game-over-trombone-471.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755630E28AEACE500D9B369 /* mixkit-sad-game-over-trombone-471.wav */; };
+		7755632028AEACE600D9B369 /* mixkit-funny-cartoon-melody-2881.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755630F28AEACE500D9B369 /* mixkit-funny-cartoon-melody-2881.wav */; };
+		7755632128AEACE600D9B369 /* mixkit-drum-joke-accent-579.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631028AEACE500D9B369 /* mixkit-drum-joke-accent-579.wav */; };
+		7755632228AEACE600D9B369 /* mixkit-cartoon-voice-laugh-343.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631128AEACE500D9B369 /* mixkit-cartoon-voice-laugh-343.wav */; };
+		7755632328AEACE600D9B369 /* mixkit-cartoon-failure-piano-473.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631228AEACE500D9B369 /* mixkit-cartoon-failure-piano-473.wav */; };
+		7755632428AEACE600D9B369 /* mixkit-cartoon-toy-whistle-616.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631328AEACE600D9B369 /* mixkit-cartoon-toy-whistle-616.wav */; };
+		7755632528AEACE600D9B369 /* mixkit-falling-male-scream-391.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631428AEACE600D9B369 /* mixkit-falling-male-scream-391.wav */; };
+		7755632628AEACE600D9B369 /* mixkit-cartoon-dazzle-hit-and-birds-746.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631528AEACE600D9B369 /* mixkit-cartoon-dazzle-hit-and-birds-746.wav */; };
+		7755632728AEACE600D9B369 /* mixkit-cartoon-fart-sound-2891.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631628AEACE600D9B369 /* mixkit-cartoon-fart-sound-2891.wav */; };
+		7755632828AEACE600D9B369 /* mixkit-clown-horn-at-circus-715.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631728AEACE600D9B369 /* mixkit-clown-horn-at-circus-715.wav */; };
+		7755632928AEACE600D9B369 /* mixkit-cartoon-falling-whistle-395.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631828AEACE600D9B369 /* mixkit-cartoon-falling-whistle-395.wav */; };
+		7755632A28AEACE600D9B369 /* mixkit-laughing-teenagers-429.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631928AEACE600D9B369 /* mixkit-laughing-teenagers-429.wav */; };
+		7755632B28AEACE600D9B369 /* mixkit-quick-funny-kiss-2193.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631A28AEACE600D9B369 /* mixkit-quick-funny-kiss-2193.wav */; };
+		7755632C28AEACE600D9B369 /* mixkit-metallic-boing-hit-2895.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631B28AEACE600D9B369 /* mixkit-metallic-boing-hit-2895.wav */; };
+		7755632D28AEACE600D9B369 /* mixkit-funny-break-engine-2944.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7755631C28AEACE600D9B369 /* mixkit-funny-break-engine-2944.wav */; };
+		776355A228ABE1B400596099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776355A128ABE1B400596099 /* AppDelegate.swift */; };
+		776355A428ABE1B400596099 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776355A328ABE1B400596099 /* SceneDelegate.swift */; };
+		776355A628ABE1B400596099 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776355A528ABE1B400596099 /* HomeVC.swift */; };
+		776355A928ABE1B400596099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776355A728ABE1B400596099 /* Main.storyboard */; };
+		776355AB28ABE1B500596099 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 776355AA28ABE1B500596099 /* Assets.xcassets */; };
+		776355AE28ABE1B500596099 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 776355AC28ABE1B500596099 /* LaunchScreen.storyboard */; };
+		776355C128ABF68800596099 /* BunnyBodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776355C028ABF68800596099 /* BunnyBodyView.swift */; };
+		77D6584B28CF38DC00586FAC /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D6584A28CF38DC00586FAC /* Color+Extension.swift */; };
+		77D9A59928AD22390012FDF4 /* HareEarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77D9A59828AD22390012FDF4 /* HareEarView.swift */; };
+		77FF4B4828CB4EF200171AEA /* StartVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF4B4728CB4EF200171AEA /* StartVC.swift */; };
+		77FF4B4C28CB4F3C00171AEA /* StartScreenCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF4B4A28CB4F3C00171AEA /* StartScreenCell.swift */; };
+		77FF4B4D28CB4F3C00171AEA /* StartScreenCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 77FF4B4B28CB4F3C00171AEA /* StartScreenCell.xib */; };
+		77FF4B5028CB4FF000171AEA /* TableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF4B4F28CB4FF000171AEA /* TableView+Extension.swift */; };
+		77FF4B5228CB89D900171AEA /* Storyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77FF4B5128CB89D900171AEA /* Storyboard+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		77482C3C28AFFAB40083FC0C /* AudioManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioManager.swift; sourceTree = "<group>"; };
+		774BF53128CF80DE00476544 /* IfYoureHappyAndYouKnowItyourface_(allmp3.su).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "IfYoureHappyAndYouKnowItyourface_(allmp3.su).mp3"; sourceTree = "<group>"; };
+		774BF53228CF80DE00476544 /* OldMacDonaldHadAFarm_(allmp3.su).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "OldMacDonaldHadAFarm_(allmp3.su).mp3"; sourceTree = "<group>"; };
+		774BF53328CF80DE00476544 /* TheMuffinMan_(allmp3.su).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "TheMuffinMan_(allmp3.su).mp3"; sourceTree = "<group>"; };
+		774BF53428CF80DE00476544 /* ClassicDisney-IfYoureHappyandYouKnowIt_(allmp3.su).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "ClassicDisney-IfYoureHappyandYouKnowIt_(allmp3.su).mp3"; sourceTree = "<group>"; };
+		774BF53528CF80DE00476544 /* 12345_(allmp3.su).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "12345_(allmp3.su).mp3"; sourceTree = "<group>"; };
+		775562FE28AEACB300D9B369 /* deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3"; sourceTree = "<group>"; };
+		775562FF28AEACB300D9B369 /* deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3"; sourceTree = "<group>"; };
+		7755630028AEACB400D9B369 /* deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3"; sourceTree = "<group>"; };
+		7755630128AEACB400D9B369 /* deti-online.com_-_pesnya-mamontenka.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_pesnya-mamontenka.mp3"; sourceTree = "<group>"; };
+		7755630228AEACB400D9B369 /* deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3"; sourceTree = "<group>"; };
+		7755630328AEACB400D9B369 /* deti-online.com_-_ulybka-kroshka-enot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_ulybka-kroshka-enot.mp3"; sourceTree = "<group>"; };
+		7755630428AEACB400D9B369 /* deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3"; sourceTree = "<group>"; };
+		7755630C28AEACE500D9B369 /* mixkit-happy-party-horn-sound-530.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-happy-party-horn-sound-530.wav"; sourceTree = "<group>"; };
+		7755630D28AEACE500D9B369 /* mixkit-joke-drums-578.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-joke-drums-578.wav"; sourceTree = "<group>"; };
+		7755630E28AEACE500D9B369 /* mixkit-sad-game-over-trombone-471.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-sad-game-over-trombone-471.wav"; sourceTree = "<group>"; };
+		7755630F28AEACE500D9B369 /* mixkit-funny-cartoon-melody-2881.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-funny-cartoon-melody-2881.wav"; sourceTree = "<group>"; };
+		7755631028AEACE500D9B369 /* mixkit-drum-joke-accent-579.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-drum-joke-accent-579.wav"; sourceTree = "<group>"; };
+		7755631128AEACE500D9B369 /* mixkit-cartoon-voice-laugh-343.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-voice-laugh-343.wav"; sourceTree = "<group>"; };
+		7755631228AEACE500D9B369 /* mixkit-cartoon-failure-piano-473.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-failure-piano-473.wav"; sourceTree = "<group>"; };
+		7755631328AEACE600D9B369 /* mixkit-cartoon-toy-whistle-616.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-toy-whistle-616.wav"; sourceTree = "<group>"; };
+		7755631428AEACE600D9B369 /* mixkit-falling-male-scream-391.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-falling-male-scream-391.wav"; sourceTree = "<group>"; };
+		7755631528AEACE600D9B369 /* mixkit-cartoon-dazzle-hit-and-birds-746.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-dazzle-hit-and-birds-746.wav"; sourceTree = "<group>"; };
+		7755631628AEACE600D9B369 /* mixkit-cartoon-fart-sound-2891.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-fart-sound-2891.wav"; sourceTree = "<group>"; };
+		7755631728AEACE600D9B369 /* mixkit-clown-horn-at-circus-715.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-clown-horn-at-circus-715.wav"; sourceTree = "<group>"; };
+		7755631828AEACE600D9B369 /* mixkit-cartoon-falling-whistle-395.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-cartoon-falling-whistle-395.wav"; sourceTree = "<group>"; };
+		7755631928AEACE600D9B369 /* mixkit-laughing-teenagers-429.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-laughing-teenagers-429.wav"; sourceTree = "<group>"; };
+		7755631A28AEACE600D9B369 /* mixkit-quick-funny-kiss-2193.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-quick-funny-kiss-2193.wav"; sourceTree = "<group>"; };
+		7755631B28AEACE600D9B369 /* mixkit-metallic-boing-hit-2895.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-metallic-boing-hit-2895.wav"; sourceTree = "<group>"; };
+		7755631C28AEACE600D9B369 /* mixkit-funny-break-engine-2944.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "mixkit-funny-break-engine-2944.wav"; sourceTree = "<group>"; };
+		7763559E28ABE1B400596099 /* AliloBunny.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AliloBunny.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		776355A128ABE1B400596099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		776355A328ABE1B400596099 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		776355A528ABE1B400596099 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		776355A828ABE1B400596099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		776355AA28ABE1B500596099 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		776355AD28ABE1B500596099 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		776355AF28ABE1B500596099 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		776355C028ABF68800596099 /* BunnyBodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BunnyBodyView.swift; sourceTree = "<group>"; };
+		77D6584A28CF38DC00586FAC /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		77D9A59828AD22390012FDF4 /* HareEarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HareEarView.swift; sourceTree = "<group>"; };
+		77FF4B4728CB4EF200171AEA /* StartVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartVC.swift; sourceTree = "<group>"; };
+		77FF4B4A28CB4F3C00171AEA /* StartScreenCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreenCell.swift; sourceTree = "<group>"; };
+		77FF4B4B28CB4F3C00171AEA /* StartScreenCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StartScreenCell.xib; sourceTree = "<group>"; };
+		77FF4B4F28CB4FF000171AEA /* TableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Extension.swift"; sourceTree = "<group>"; };
+		77FF4B5128CB89D900171AEA /* Storyboard+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7763559B28ABE1B400596099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		771DA98A28B12C7900AF04C3 /* AudioPlayers */ = {
+			isa = PBXGroup;
+			children = (
+				77482C3C28AFFAB40083FC0C /* AudioManager.swift */,
+			);
+			path = AudioPlayers;
+			sourceTree = "<group>";
+		};
+		7734D59B28AE6C6400485D91 /* Songs */ = {
+			isa = PBXGroup;
+			children = (
+				7755630428AEACB400D9B369 /* deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3 */,
+				7755630228AEACB400D9B369 /* deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3 */,
+				775562FF28AEACB300D9B369 /* deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3 */,
+				775562FE28AEACB300D9B369 /* deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3 */,
+				7755630028AEACB400D9B369 /* deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3 */,
+				7755630128AEACB400D9B369 /* deti-online.com_-_pesnya-mamontenka.mp3 */,
+				7755630328AEACB400D9B369 /* deti-online.com_-_ulybka-kroshka-enot.mp3 */,
+			);
+			path = Songs;
+			sourceTree = "<group>";
+		};
+		7734D59C28AE6C8D00485D91 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				7755631528AEACE600D9B369 /* mixkit-cartoon-dazzle-hit-and-birds-746.wav */,
+				7755631228AEACE500D9B369 /* mixkit-cartoon-failure-piano-473.wav */,
+				7755631828AEACE600D9B369 /* mixkit-cartoon-falling-whistle-395.wav */,
+				7755631628AEACE600D9B369 /* mixkit-cartoon-fart-sound-2891.wav */,
+				7755631328AEACE600D9B369 /* mixkit-cartoon-toy-whistle-616.wav */,
+				7755631128AEACE500D9B369 /* mixkit-cartoon-voice-laugh-343.wav */,
+				7755631728AEACE600D9B369 /* mixkit-clown-horn-at-circus-715.wav */,
+				7755631028AEACE500D9B369 /* mixkit-drum-joke-accent-579.wav */,
+				7755631428AEACE600D9B369 /* mixkit-falling-male-scream-391.wav */,
+				7755631C28AEACE600D9B369 /* mixkit-funny-break-engine-2944.wav */,
+				7755630F28AEACE500D9B369 /* mixkit-funny-cartoon-melody-2881.wav */,
+				7755630C28AEACE500D9B369 /* mixkit-happy-party-horn-sound-530.wav */,
+				7755630D28AEACE500D9B369 /* mixkit-joke-drums-578.wav */,
+				7755631928AEACE600D9B369 /* mixkit-laughing-teenagers-429.wav */,
+				7755631B28AEACE600D9B369 /* mixkit-metallic-boing-hit-2895.wav */,
+				7755631A28AEACE600D9B369 /* mixkit-quick-funny-kiss-2193.wav */,
+				7755630E28AEACE500D9B369 /* mixkit-sad-game-over-trombone-471.wav */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		774BF53028CF80B900476544 /* EnglishSongs */ = {
+			isa = PBXGroup;
+			children = (
+				774BF53528CF80DE00476544 /* 12345_(allmp3.su).mp3 */,
+				774BF53428CF80DE00476544 /* ClassicDisney-IfYoureHappyandYouKnowIt_(allmp3.su).mp3 */,
+				774BF53128CF80DE00476544 /* IfYoureHappyAndYouKnowItyourface_(allmp3.su).mp3 */,
+				774BF53228CF80DE00476544 /* OldMacDonaldHadAFarm_(allmp3.su).mp3 */,
+				774BF53328CF80DE00476544 /* TheMuffinMan_(allmp3.su).mp3 */,
+			);
+			path = EnglishSongs;
+			sourceTree = "<group>";
+		};
+		7763559528ABE1B400596099 = {
+			isa = PBXGroup;
+			children = (
+				776355A028ABE1B400596099 /* AliloBunny */,
+				7763559F28ABE1B400596099 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7763559F28ABE1B400596099 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7763559E28ABE1B400596099 /* AliloBunny.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		776355A028ABE1B400596099 /* AliloBunny */ = {
+			isa = PBXGroup;
+			children = (
+				77FF4B4E28CB4FC900171AEA /* Extension */,
+				776355B528ABE22900596099 /* AppDelegate */,
+				771DA98A28B12C7900AF04C3 /* AudioPlayers */,
+				77FF4B4228CB4BF700171AEA /* Modules */,
+				776355A728ABE1B400596099 /* Main.storyboard */,
+				776355B828ABE26600596099 /* Resources */,
+				776355B928ABE27C00596099 /* LaunchScreen */,
+				776355AF28ABE1B500596099 /* Info.plist */,
+			);
+			path = AliloBunny;
+			sourceTree = "<group>";
+		};
+		776355B528ABE22900596099 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				776355A128ABE1B400596099 /* AppDelegate.swift */,
+				776355A328ABE1B400596099 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		776355B628ABE23E00596099 /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				776355BF28ABE79200596099 /* Model */,
+				776355BA28ABE4B200596099 /* View */,
+				776355B728ABE24C00596099 /* Controller */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		776355B728ABE24C00596099 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				776355A528ABE1B400596099 /* HomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		776355B828ABE26600596099 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				774BF53028CF80B900476544 /* EnglishSongs */,
+				7734D59B28AE6C6400485D91 /* Songs */,
+				7734D59C28AE6C8D00485D91 /* Sounds */,
+				776355AA28ABE1B500596099 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		776355B928ABE27C00596099 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				776355AC28ABE1B500596099 /* LaunchScreen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		776355BA28ABE4B200596099 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77D9A59828AD22390012FDF4 /* HareEarView.swift */,
+				776355C028ABF68800596099 /* BunnyBodyView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		776355BF28ABE79200596099 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		77FF4B4228CB4BF700171AEA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				77FF4B4328CB4C0B00171AEA /* StartScreen */,
+				776355B628ABE23E00596099 /* HomeScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		77FF4B4328CB4C0B00171AEA /* StartScreen */ = {
+			isa = PBXGroup;
+			children = (
+				77FF4B4528CB4E9A00171AEA /* View */,
+				77FF4B4428CB4E8F00171AEA /* Controller */,
+			);
+			path = StartScreen;
+			sourceTree = "<group>";
+		};
+		77FF4B4428CB4E8F00171AEA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				77FF4B4728CB4EF200171AEA /* StartVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		77FF4B4528CB4E9A00171AEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				77FF4B4928CB4F0D00171AEA /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		77FF4B4928CB4F0D00171AEA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				77FF4B4A28CB4F3C00171AEA /* StartScreenCell.swift */,
+				77FF4B4B28CB4F3C00171AEA /* StartScreenCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		77FF4B4E28CB4FC900171AEA /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				77FF4B4F28CB4FF000171AEA /* TableView+Extension.swift */,
+				77FF4B5128CB89D900171AEA /* Storyboard+Extension.swift */,
+				77D6584A28CF38DC00586FAC /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7763559D28ABE1B400596099 /* AliloBunny */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 776355B228ABE1B500596099 /* Build configuration list for PBXNativeTarget "AliloBunny" */;
+			buildPhases = (
+				7763559A28ABE1B400596099 /* Sources */,
+				7763559B28ABE1B400596099 /* Frameworks */,
+				7763559C28ABE1B400596099 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AliloBunny;
+			productName = AliloBunny;
+			productReference = 7763559E28ABE1B400596099 /* AliloBunny.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7763559628ABE1B400596099 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7763559D28ABE1B400596099 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = 7763559928ABE1B400596099 /* Build configuration list for PBXProject "AliloBunny" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7763559528ABE1B400596099;
+			productRefGroup = 7763559F28ABE1B400596099 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7763559D28ABE1B400596099 /* AliloBunny */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7763559C28ABE1B400596099 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7755632728AEACE600D9B369 /* mixkit-cartoon-fart-sound-2891.wav in Resources */,
+				7755632828AEACE600D9B369 /* mixkit-clown-horn-at-circus-715.wav in Resources */,
+				776355AE28ABE1B500596099 /* LaunchScreen.storyboard in Resources */,
+				776355AB28ABE1B500596099 /* Assets.xcassets in Resources */,
+				7755630828AEACB400D9B369 /* deti-online.com_-_pesnya-mamontenka.mp3 in Resources */,
+				7755631F28AEACE600D9B369 /* mixkit-sad-game-over-trombone-471.wav in Resources */,
+				7755630B28AEACB400D9B369 /* deti-online.com_-_bu-ra-ti-no-priklyucheniya-buratino.mp3 in Resources */,
+				7755632028AEACE600D9B369 /* mixkit-funny-cartoon-melody-2881.wav in Resources */,
+				7755632128AEACE600D9B369 /* mixkit-drum-joke-accent-579.wav in Resources */,
+				7755630928AEACB400D9B369 /* deti-online.com_-_kaby-ne-bylo-zimy-zima-v-prostokvashino.mp3 in Resources */,
+				77FF4B4D28CB4F3C00171AEA /* StartScreenCell.xib in Resources */,
+				7755632B28AEACE600D9B369 /* mixkit-quick-funny-kiss-2193.wav in Resources */,
+				7755632A28AEACE600D9B369 /* mixkit-laughing-teenagers-429.wav in Resources */,
+				7755632928AEACE600D9B369 /* mixkit-cartoon-falling-whistle-395.wav in Resources */,
+				7755632328AEACE600D9B369 /* mixkit-cartoon-failure-piano-473.wav in Resources */,
+				774BF53928CF80DE00476544 /* ClassicDisney-IfYoureHappyandYouKnowIt_(allmp3.su).mp3 in Resources */,
+				7755632D28AEACE600D9B369 /* mixkit-funny-break-engine-2944.wav in Resources */,
+				7755632428AEACE600D9B369 /* mixkit-cartoon-toy-whistle-616.wav in Resources */,
+				7755630A28AEACB400D9B369 /* deti-online.com_-_ulybka-kroshka-enot.mp3 in Resources */,
+				7755631E28AEACE600D9B369 /* mixkit-joke-drums-578.wav in Resources */,
+				7755630728AEACB400D9B369 /* deti-online.com_-_pesenka-vinni-puha-vinni-puh-i-vse-vse-vse.mp3 in Resources */,
+				774BF53628CF80DE00476544 /* IfYoureHappyAndYouKnowItyourface_(allmp3.su).mp3 in Resources */,
+				7755632228AEACE600D9B369 /* mixkit-cartoon-voice-laugh-343.wav in Resources */,
+				774BF53828CF80DE00476544 /* TheMuffinMan_(allmp3.su).mp3 in Resources */,
+				7755630528AEACB400D9B369 /* deti-online.com_-_pesenka-lvenka-i-cherepahi-kak-lvenok-i-cherepaha-peli-pesnyu.mp3 in Resources */,
+				774BF53728CF80DE00476544 /* OldMacDonaldHadAFarm_(allmp3.su).mp3 in Resources */,
+				7755631D28AEACE600D9B369 /* mixkit-happy-party-horn-sound-530.wav in Resources */,
+				7755632628AEACE600D9B369 /* mixkit-cartoon-dazzle-hit-and-birds-746.wav in Resources */,
+				776355A928ABE1B400596099 /* Main.storyboard in Resources */,
+				7755630628AEACB400D9B369 /* deti-online.com_-_pesenka-krokodila-geny-pust-begut-neuklyuzhe.mp3 in Resources */,
+				7755632528AEACE600D9B369 /* mixkit-falling-male-scream-391.wav in Resources */,
+				7755632C28AEACE600D9B369 /* mixkit-metallic-boing-hit-2895.wav in Resources */,
+				774BF53A28CF80DE00476544 /* 12345_(allmp3.su).mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7763559A28ABE1B400596099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77482C3D28AFFAB40083FC0C /* AudioManager.swift in Sources */,
+				77FF4B5028CB4FF000171AEA /* TableView+Extension.swift in Sources */,
+				776355A628ABE1B400596099 /* HomeVC.swift in Sources */,
+				776355C128ABF68800596099 /* BunnyBodyView.swift in Sources */,
+				77D9A59928AD22390012FDF4 /* HareEarView.swift in Sources */,
+				77FF4B4828CB4EF200171AEA /* StartVC.swift in Sources */,
+				776355A228ABE1B400596099 /* AppDelegate.swift in Sources */,
+				77FF4B4C28CB4F3C00171AEA /* StartScreenCell.swift in Sources */,
+				77FF4B5228CB89D900171AEA /* Storyboard+Extension.swift in Sources */,
+				77D6584B28CF38DC00586FAC /* Color+Extension.swift in Sources */,
+				776355A428ABE1B400596099 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		776355A728ABE1B400596099 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776355A828ABE1B400596099 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		776355AC28ABE1B500596099 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				776355AD28ABE1B500596099 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		776355B028ABE1B500596099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		776355B128ABE1B500596099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		776355B328ABE1B500596099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTR5336WJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AliloBunny/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Alilo Bunny";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreymomot.AliloBunny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		776355B428ABE1B500596099 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QTR5336WJC;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AliloBunny/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Alilo Bunny";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.andreymomot.AliloBunny;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7763559928ABE1B400596099 /* Build configuration list for PBXProject "AliloBunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776355B028ABE1B500596099 /* Debug */,
+				776355B128ABE1B500596099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		776355B228ABE1B500596099 /* Build configuration list for PBXNativeTarget "AliloBunny" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				776355B328ABE1B500596099 /* Debug */,
+				776355B428ABE1B500596099 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7763559628ABE1B400596099 /* Project object */;
+}
